@@ -40,3 +40,50 @@ async function fetchLiveNews() {
     console.error('News fetch error:', error);
   }
 }
+document.addEventListener('DOMContentLoaded', () => {
+  // AI Adoption Chart
+  const ctxAdoption = document.getElementById('aiAdoptionChart').getContext('2d');
+  const aiAdoptionChart = new Chart(ctxAdoption, {
+    type: 'bar',
+    data: {
+      labels: ['2023', '2024'],
+      datasets: [{
+        label: 'AI Adoption (%)',
+        data: [23, 40], // Example data: 23% in 2023, 40% in 2024
+        backgroundColor: ['#4e79a7', '#f28e2b']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'AI Adoption in SMEs Over Years'
+        }
+      }
+    }
+  });
+
+  // AI Benefits Chart
+  const ctxBenefits = document.getElementById('aiBenefitsChart').getContext('2d');
+  const aiBenefitsChart = new Chart(ctxBenefits, {
+    type: 'pie',
+    data: {
+      labels: ['Increased Efficiency', 'Higher Profitability', 'Improved Customer Service'],
+      datasets: [{
+        label: 'Benefits of AI Adoption',
+        data: [80, 70, 65], // Example data: percentages of SMEs reporting each benefit
+        backgroundColor: ['#59a14f', '#e15759', '#76b7b2']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Reported Benefits of AI Adoption by SMEs'
+        }
+      }
+    }
+  });
+});
