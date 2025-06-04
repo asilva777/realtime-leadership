@@ -79,6 +79,32 @@ body {
   margin-bottom: 1rem;
   color: #003366;
 }
+#news-list {
+  margin-top: 1.5rem;
+}
+
+.news-item {
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.news-item h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #0066cc;
+}
+
+.news-item a {
+  text-decoration: none;
+  color: #003366;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
 
 /* Footer */
 .footer {
