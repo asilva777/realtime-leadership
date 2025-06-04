@@ -37,6 +37,39 @@ body {
   border-radius: 5px;
   font-weight: bold;
 }
+#ai-agent {
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+#ai-agent h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+#ai-agent p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+}
+
+.ai-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature {
+  flex: 1 1 250px;
+  background-color: #e6f2ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 300px;
+  text-align: center;
+}
 
 /* Sections */
 .section {
