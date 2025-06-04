@@ -1,4 +1,4 @@
-# 🧠 ASilva Innovations - Real-Time Leadership AI Agent Website
+ASilva Innovations - Real-Time Leadership AI Agent Website
 
 A responsive, fully styled website showcasing the **Real-Time Leadership** AI agent by **ASilva Innovations**, designed to help Small and Medium Enterprises (SMEs) drive **resilience** and **innovation** in a rapidly evolving digital world.
 
